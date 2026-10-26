@@ -166,49 +166,6 @@ export const Hero: React.FC<HeroProps> = ({ lang, onGetInTouch, onExploreWork })
           </motion.div>
         </div>
 
-        {/* Full-Width Metrics Strip below split as required by Frontend Constitution */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-16 pt-10 border-t border-slate-200/80 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
-        >
-          <div className="p-4 rounded-xl bg-slate-50/70 hover:bg-slate-50 transition-colors">
-            <span className="block text-3xl sm:text-4xl font-extrabold text-[#5E3BEE] font-mono tabular-nums">
-              5+
-            </span>
-            <span className="text-xs sm:text-sm font-medium text-slate-600 mt-1 block">
-              {lang === 'id' ? 'Tahun Pengalaman' : 'Years Experience'}
-            </span>
-          </div>
-
-          <div className="p-4 rounded-xl bg-slate-50/70 hover:bg-slate-50 transition-colors">
-            <span className="block text-3xl sm:text-4xl font-extrabold text-[#5E3BEE] font-mono tabular-nums">
-              45+
-            </span>
-            <span className="text-xs sm:text-sm font-medium text-slate-600 mt-1 block">
-              {lang === 'id' ? 'Proyek Terselesaikan' : 'Projects Shipped'}
-            </span>
-          </div>
-
-          <div className="p-4 rounded-xl bg-slate-50/70 hover:bg-slate-50 transition-colors">
-            <span className="block text-3xl sm:text-4xl font-extrabold text-[#5E3BEE] font-mono tabular-nums">
-              99%
-            </span>
-            <span className="text-xs sm:text-sm font-medium text-slate-600 mt-1 block">
-              {lang === 'id' ? 'Kepuasan Klien' : 'Client Satisfaction'}
-            </span>
-          </div>
-
-          <div className="p-4 rounded-xl bg-slate-50/70 hover:bg-slate-50 transition-colors">
-            <span className="block text-3xl sm:text-4xl font-extrabold text-[#5E3BEE] font-mono tabular-nums">
-              15+
-            </span>
-            <span className="text-xs sm:text-sm font-medium text-slate-600 mt-1 block">
-              {lang === 'id' ? 'Penghargaan Desain' : 'Design Awards'}
-            </span>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

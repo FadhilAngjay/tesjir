@@ -48,20 +48,11 @@ export const Navbar: React.FC<NavbarProps> = ({
           href="#home"
           className="flex items-center gap-2.5 text-xl font-bold tracking-tight text-slate-900 whitespace-nowrap shrink-0 group focus:outline-hidden focus-visible:ring-2 focus-visible:ring-[#5E3BEE] rounded-sm"
         >
-          <div className="w-8 h-8 rounded-lg bg-[#5E3BEE] flex items-center justify-center text-white shadow-xs group-hover:scale-105 transition-transform">
-            <svg
-              className="w-5 h-5 fill-current"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="6" cy="6" r="3" />
-              <circle cx="18" cy="6" r="3" />
-              <circle cx="12" cy="18" r="4" />
-              <path d="M6 9v3a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9" stroke="currentColor" strokeWidth="2" fill="none" />
-            </svg>
+          <div className="w-8 h-8 rounded-lg bg-[#5E3BEE] flex items-center justify-center text-white text-xs font-black shadow-xs group-hover:scale-105 transition-transform tracking-wider">
+            FD
           </div>
           <span className="font-extrabold text-slate-950 font-['Space_Grotesk'] text-lg">
-            logoipsum<span className="text-[#5E3BEE]">.</span>
+            Fadila<span className="text-[#5E3BEE]">.</span>
           </span>
         </a>
 
