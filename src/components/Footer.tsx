@@ -38,9 +38,6 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
             <a href="#portfolio" className="hover:text-white transition-colors">
               {lang === 'id' ? 'Portofolio' : 'Portfolio'}
             </a>
-            <a href="#testimonials" className="hover:text-white transition-colors">
-              {lang === 'id' ? 'Testimoni' : 'Testimonials'}
-            </a>
             <a href="#contact" className="hover:text-white transition-colors">
               {lang === 'id' ? 'Kontak' : 'Contact'}
             </a>

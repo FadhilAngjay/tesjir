@@ -31,7 +31,6 @@ export const Navbar: React.FC<NavbarProps> = ({
     { href: '#expertise', label: lang === 'id' ? 'Keahlian' : 'Expertise', id: 'expertise' },
     { href: '#about', label: lang === 'id' ? 'Tentang Saya' : 'About me', id: 'about' },
     { href: '#portfolio', label: lang === 'id' ? 'Portofolio' : 'Portfolio', id: 'portfolio' },
-    { href: '#testimonials', label: lang === 'id' ? 'Testimoni' : 'Testimonials', id: 'testimonials' },
   ];
 
   return (

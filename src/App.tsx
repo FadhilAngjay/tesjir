@@ -5,7 +5,6 @@ import { Hero } from './components/Hero';
 import { Expertise } from './components/Expertise';
 import { About } from './components/About';
 import { Portfolio } from './components/Portfolio';
-import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -15,7 +14,7 @@ export default function App() {
 
   // Scroll spy to highlight active section in Navbar
   useEffect(() => {
-    const sectionIds = ['home', 'expertise', 'about', 'portfolio', 'testimonials', 'contact'];
+    const sectionIds = ['home', 'expertise', 'about', 'portfolio', 'contact'];
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 250;
@@ -79,9 +78,6 @@ export default function App() {
 
         {/* Portfolio / Recent Projects Section */}
         <Portfolio lang={lang} />
-
-        {/* Testimonials Section */}
-        <Testimonials lang={lang} />
 
         {/* Contact Me Section */}
         <Contact lang={lang} />
